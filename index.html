@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+     
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+            <div id="navigator">
+                <div id="logo">
+                    <h2>PHONESHOP</h2>
+                </div>
+            <div id="menubar">
+                <div id="listmenu">
+                <ul id=navlist>
+                    <li ><button id="home" class="bar">HOME</button></li>
+                    <li> <button id="discount" class="bar">Reducere</button></li>
+                    <li><button id="ascendent" class="bar">Ascendent</button></li>
+                    <li>  <button id="descendent" class="bar">Descendent</button> </li>
+                </ul>
+               </div>
+               <div id="findmenu">
+                <div id="findbrand" class="hidden">
+                    <input class="text-input" type="text" name="find" placeholder="Brand" class="input" id="input-brand"> 
+                    <button id="fbrand" class="find2">Go</button>        
+                 </div>   
+
+                 <div id="findprice" class="hidden" >
+                    <input class="text-input" type="text" name="find" placeholder="min price"  id="input-min-price">     
+                    <input class="text-input" type="text" name="find" placeholder="max price"  id="input-max-price"> 
+                    <button id="fprice" class="find2">Go</button>  
+                 </div> 
+
+                 <div id="search-selector" class="hidden">
+                    <button id="brand-finder"class="bar">Brand</button>  
+                    <button id="price-finder"class="bar">Price</button>  
+                 </div>
+               
+                <button id="find-selector"class="bar">Cauta</button>
+             </div>  
+            </div>
+
+         </div>
+            <div id="img-promo">
+                <img src="./imgs/best2.jpg" id="imghead" width="100%" alt="">
+            </div>
+
+       
+    </header>
+    <main>
+        <div id="card-keeper">
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="infogen">
+            <h4>PHONE</h4>
+            <h5>PHONESHOP comercializeaza produse licenziate.</h5>
+            <h5>© 2021 Drepturile de autor sunt prezente</h5>
+            <h5><strong>CONDITIILE  |   POLITICA DE CONFIDENTIALITATE</strong></h5>
+        </div>
+        <div class="menu">
+            <h5>MENU</h5>
+            <ul>
+                <li><a class="td" href="#"> Despre companie</a></li>
+                <li><a class="td" href="#"> Contacte </a></li>
+                <li><a class="td"  href="#"> Brandurile oferite</a></li>
+                <li><a class="td" href="#"> Blogul nostru</a></li>
+                <li><a class="td" href="#"> Site-ul nostru</a></li>  
+            </ul>
+        </div>
+
+        <div class="inreg">
+            <h5>Abonati-va la noi</h5>
+            <div class="site">
+                <img src="./imgs/fb.PNG" alt="">
+                <img src="./imgs/in3.PNG" alt="">
+                <img src="./imgs/yt.PNG" alt="">
+            </div>
+
+        </div>
+
+        <div class="news">
+            <h5><strong> NOUTATI</strong></h5>
+            <h5>Abonati-va la noutatile noastre si ve-ti primi<br>
+                ultimile noutati din industria digitala</h5>
+                
+        </div>
+
+    </footer>
+
+
+   
+<script type="text/javascript" src="produse.json"></script>
+<script src="script.js"> </script> 
+</body>
+</html>

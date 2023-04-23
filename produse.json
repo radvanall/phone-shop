@@ -1,0 +1,73 @@
+[
+    {
+        "img": "imgs/m1.jpg",
+        "name": "MacBook Pro M1",
+        "brand": "apple",
+        "reducere":"20%",
+        "price": 24899
+       
+    },
+    {
+        "img": "imgs/m1air.jpg",
+        "name": "MacBook Air M1",
+        "brand": "apple",
+        "reducere":"22%",
+        "price": 19999
+    },
+    {
+        "img": "imgs/12pro.jpg",
+        "name": "iPhone 12 Pro",
+        "brand": "apple",
+        "reducere":"0%",
+        "price": 28500
+    },
+    {
+        "img": "imgs/11pro.jpg",
+        "name": "iPhone 11 Pro",
+        "brand": "apple",
+        "reducere":"13%",
+        "price": 19500
+    },
+    {
+        "img": "imgs/ipad.jpg",
+        "name": "iPad Pro",
+        "brand": "apple",
+        "reducere":"0%",
+        "price": 23499
+    },
+    {
+        "img": "imgs/s21.png",
+        "name": "Samsung S21 Ultra",
+        "brand": "Samsung",
+        "reducere":"24%",
+        "price": 17499
+    },
+    {
+        "img": "imgs/s20.png",
+        "name": "Samsung S20 Ultra",
+        "brand": "Samsung",
+        "reducere":"0%",
+        "price": 13499
+    },
+    {
+        "img": "imgs/mi9.png",
+        "name": "Xiaomi Redmi 9",
+        "brand": "Samsung",
+        "reducere":"20%",
+        "price": 4499
+    },
+    {
+        "img": "imgs/mia3.jpg",
+        "name": "Xiaomi Mi A3",
+        "brand": "Samsung",
+        "reducere":"0%",
+        "price": 2499
+    },
+    {
+        "img": "imgs/note10.png",
+        "name": "Xiaomi Note 10",
+        "brand": "Samsung",
+        "reducere":"24%",
+        "price": 7499
+    }
+]

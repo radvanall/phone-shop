@@ -1,0 +1,15 @@
+1.obiecte produse primite dintr-un file json
+2.Afisarea tuturor produselor in pagina
+3.Stilizarea produselor
+4.Sortare
+   Dupa cerinta de pret
+   Dupa brand
+   Dupa reduceri
+   dE LA MINIM LA MAXIM
+   De la maxim la minim
+5. JSON file
+  15 obiecte.{
+    Nume,
+    Poza,
+    Pret
+    }
